@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Innovations - AgriSmart Hub</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Anton&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <i class="bi bi-tree-fill me-2"></i>AgriSmart Hub
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="innovations.html">Innovations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Innovations Section -->
+    <section class="section-padding" style="margin-top: 80px">
+      <div class="container">
+        <div class="section-title">
+          <h2>Agricultural Innovations</h2>
+          <p>Discover the latest innovations transforming modern agriculture</p>
+        </div>
+
+        <!-- Bootstrap Carousel -->
+        <div
+          id="innovationsCarousel"
+          class="carousel slide mb-5"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#innovationsCarousel"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#innovationsCarousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#innovationsCarousel"
+              data-bs-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#innovationsCarousel"
+              data-bs-slide-to="3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="image9.jpg"
+                class="d-block w-100"
+                alt="IoT Sensors in Agriculture"
+              />
+              <div class="carousel-caption">
+                <h5>IoT Sensors for Precision Farming</h5>
+                <p>
+                  Advanced IoT sensors monitor soil moisture, temperature, and
+                  nutrient levels in real-time, enabling precision farming and
+                  optimized resource management.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="image10.jpg"
+                class="d-block w-100"
+                alt="Automated Greenhouse Systems"
+              />
+              <div class="carousel-caption">
+                <h5>Automated Greenhouse Systems</h5>
+                <p>
+                  Smart greenhouse automation controls climate, irrigation, and
+                  lighting to create optimal growing conditions year-round,
+                  maximizing crop yields.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="image11.jpg"
+                class="d-block w-100"
+                alt="AI-Powered Crop Analysis"
+              />
+              <div class="carousel-caption">
+                <h5>AI-Powered Crop Analysis</h5>
+                <p>
+                  Machine learning algorithms analyze crop images to detect
+                  diseases, pests, and nutrient deficiencies early, enabling
+                  proactive intervention.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="image12.jpg"
+                class="d-block w-100"
+                alt="Vertical Farming Solutions"
+              />
+              <div class="carousel-caption">
+                <h5>Vertical Farming Solutions</h5>
+                <p>
+                  Space-efficient vertical farming systems use LED lighting and
+                  hydroponics to grow crops in urban environments, reducing
+                  transportation costs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#innovationsCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#innovationsCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- YouTube Video Section -->
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h3>Learn About Smart Farming</h3>
+              <p>Watch how technology is revolutionizing agriculture</p>
+            </div>
+            <div class="video-container">
+              <iframe
+                src="https://www.youtube.com/embed/d4I3rzD0_9U"
+                title="Smart Farming Technology"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <h5>AgriSmart Hub</h5>
+            <p>
+              Connecting the agricultural community with technology and
+              innovation for sustainable farming.
+            </p>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="innovations.html">Innovations</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-4">
+            <h5>Connect With Us</h5>
+            <div class="social-icons">
+              <a href="#" aria-label="Telegram"
+                ><i class="bi bi-telegram"></i
+              ></a>
+              <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 AgriSmart Hub. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
