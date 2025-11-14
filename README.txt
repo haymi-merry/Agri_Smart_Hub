@@ -52,3 +52,15 @@ Check it Live (deployed link):
 -------------------------------
 https://agri-smart-hub-rouge.vercel.app/
 
+
+This Project is Done by Inforamtion system third year students
+section One (1)
+Grooup Members
+------------------------------------------------
+1. Haymanot Gebeyehu............UGR/5871/16
+2. Eyerusalem Belay.............Ugr/4673/16
+3. Aschalemaryam Asmare.........UGR/0850/16
+4. Biabel Girmachew.............UGR/2487/15
+5. Yonas Tsegaye................UGR/5023/15
+6. Hermela Getnet...............UGR/2219/16
+
