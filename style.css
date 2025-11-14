@@ -112,7 +112,7 @@ h3 {
 /* ===== Hero Section ===== */
 .hero-section {
   background: linear-gradient(rgba(12, 19, 47, 0.7), rgba(4, 4, 42, 0.7)),
-    url("image1.jpg");
+    url("./Images/agrismarthub.jpeg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
